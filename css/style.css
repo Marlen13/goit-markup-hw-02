@@ -6,6 +6,7 @@
 /* another link rgba(255, 255, 255, 0.6 */
 :root {
     --main-text-color:#212121;
+    --secondary-text-color:#757575:
 }
 /*body*/
 .page {
@@ -79,8 +80,22 @@
 }
 /*section priority*/
 .list .priority-title {
-font-weight: 700;
-font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+}
+.list .priority-descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    color:var(--secondary-text-color);
+}
+/*section job*/
+.job-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
