@@ -1,3 +1,14 @@
+
+/* main color text #212121 */
+/* another color text #757575 */
+/* white color text  #FFFFFF   */  
+/* link  #2196F3  */
+/* another link rgba(255, 255, 255, 0.6 */
+
+/*body*/
+.page {
+    color:#212121
+}
 /*logo*/
 .logo {
     font-family: 'Raleway';
