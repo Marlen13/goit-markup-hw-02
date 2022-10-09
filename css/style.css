@@ -39,28 +39,41 @@
 .header {
     background-color: #FFFFFF;
 }
-/*site-nav*/
-.site-nav {
 
-}
 /*page navigation*/
 .site-nav {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em
 }
 .link {
-
     text-decoration:none;
 }
-.site-nav .list {
-
+.site-nav-link {
+    color:var(--main-text-color)
 }
 .site-nav .link:hover, .site-nav .link:focus {
     color: #2196F3;
 }
 
+.auth-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+ .auth-nav .link:hover, .auth-nav .link:focus {
+   color: #2196F3 ;
+ }
+.mail {
+    color: #2196F3;
+}
+
+.tel {
+    color:var(--secondary-text-color);
+
+}
 /*title section*/
 .idea-title {
     font-weight: 900;
