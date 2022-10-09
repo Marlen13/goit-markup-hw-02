@@ -30,6 +30,9 @@
 .logo-second {
     color:#000000
 }
+.logo-third {
+    color:#FFFFFF
+}
 
 .list {
     list-style: none;
@@ -135,4 +138,24 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color:#757575);
+}
+
+/* footer contacts*/
+.footer {
+    background-color: #212121;
+}
+.adress {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.adress-post {
+    color: #FFFFFF;
+}
+.contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+.adress .link:hover,.adress .link:focus {
+    color:#2196F3
 }
