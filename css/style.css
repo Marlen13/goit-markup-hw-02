@@ -6,7 +6,9 @@
 /* another link rgba(255, 255, 255, 0.6 */
 :root {
     --main-text-color:#212121;
-    --secondary-text-color:#757575:
+    --secondary-text-color:#757575;
+    --accent-text-color:#2196F3;
+    --white-text-color:#FFFFFF ;
 }
 /*body*/
 .page {
@@ -24,14 +26,14 @@
 }
 
 .logo-first {
-    color: #2196F3;
+    color: var(--accent-text-color);
 }
 
 .logo-second {
     color:#000000
 }
 .logo-third {
-    color:#FFFFFF
+    color: var(--white-text-color);
 }
 
 .list {
@@ -40,7 +42,7 @@
 
 /*header*/
 .header {
-    background-color: #FFFFFF;
+    background-color: var(--white-text-color);
 }
 
 /*page navigation*/
@@ -58,7 +60,7 @@
     color:var(--main-text-color)
 }
 .site-nav .link:hover, .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-text-color);
 }
 
 .auth-nav {
@@ -68,10 +70,10 @@
     letter-spacing: 0.02em;
 }
  .auth-nav .link:hover, .auth-nav .link:focus {
-   color: #2196F3 ;
+   color: var(--accent-text-color) ;
  }
 .mail {
-    color: #2196F3;
+    color: var(--accent-text-color);
 }
 
 .tel {
@@ -83,12 +85,12 @@
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    color:#FFFFFF;
+    color: var(--white-text-color);
     background-color: #212121; 
 }
 /*button order*/
 .idea-btn {
-    background-color:#2196F3;
+    background-color:var(--accent-text-color);
 }
 .btn {
     font-weight: 700;
@@ -98,7 +100,7 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--white-text-color);
 }
 /*section priority*/
 .visually-hidden {
@@ -161,7 +163,7 @@
 
 /* footer contacts*/
 .footer {
-    background-color: #212121;
+    background-color: #212121; 
 }
 .adress {
     font-style: normal;
@@ -171,11 +173,11 @@
     letter-spacing: 0.03em;
 }
 .adress-post {
-    color: #FFFFFF;
+    color: var(--white-text-color);
 }
 .contact {
     color: rgba(255, 255, 255, 0.6);
 }
 .adress .link:hover,.adress .link:focus {
-    color:#2196F3
+    color: var(--accent-text-color);
 }
