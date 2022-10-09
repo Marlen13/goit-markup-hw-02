@@ -196,3 +196,19 @@
     letter-spacing: 0.03em;
     color:var(--main-text-color);
 }
+
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+
+.project-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color:var(--secondary-text-color);
+}
+
