@@ -81,20 +81,38 @@
 .idea-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,3;
+    line-height: 1.36;
     color:#FFFFFF;
     background-color: #212121; 
 }
 /*button order*/
+.idea-btn {
+    background-color:#2196F3;
+}
 .btn {
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,9;
+    line-height: 1,88;
+    display: flex;
+    align-items: center;
+    text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    background-color:#2196F3;
 }
 /*section priority*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 .list .priority-title {
     font-weight: 700;
     font-size: 14px;
