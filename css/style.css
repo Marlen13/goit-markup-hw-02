@@ -102,11 +102,10 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--white-text-color);
-
+    background-color: var(--accent-text-color);
 }
 .btn {
     font-family: inherit;
-    background-color:var(--accent-text-color);
     cursor: pointer;
 }
 /*section priority*/
